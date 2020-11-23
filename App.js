@@ -6,16 +6,7 @@ import MapLocation from './components/MapLocation';
 import * as Location from "expo-location"; // 로케이션 컴포넌트
 import * as firebase from "firebase";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyA7fihTtbRkSoxk0zgDuUUZu-yKyvme6P4",
-  authDomain: "test-3ea83.firebaseapp.com",
-  databaseURL: "https://test-3ea83.firebaseio.com",
-  projectId: "test-3ea83",
-  storageBucket: "test-3ea83.appspot.com",
-  messagingSenderId: "644634267449",
-  appId: "1:644634267449:web:88bf81880fefbaf21be2e8",
-  measurementId: "G-D8X5X3J57X"
-};
+
 if(!firebase.apps.length){
   firebase.initializeApp(firebaseConfig);
 }
